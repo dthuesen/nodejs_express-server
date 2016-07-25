@@ -1,0 +1,2 @@
+C:\sites\nodekurs_express-server\obj\Debug\nodekurs.njsprojResolveAssemblyReference.cache
+C:\sites\nodekurs_express-server\bin\Microsoft.NodejsTools.WebRole.dll

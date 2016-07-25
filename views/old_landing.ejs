@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<h1>Ich bin der <%= title %></h1>
+		<h2>Hallo Welt, mit 'ejs' ausggeben</h2>
+		<p>Ich bin ein Absatz mit einer Liste:</p>
+		<ul>
+			<% items.forEach(function(item) { %>
+				<li>
+					<%= item %>
+				</li>
+			<% }) %>
+		</ul>
+		<p>Die Liste besteht aus <%= items.length %> Einträgen</p>
+		<p><%= description %></p>
+	</body>
+</html>
